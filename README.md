@@ -15,10 +15,10 @@ Grade:
 # Overview
 | | |
 |-|-|
-| __Assignment Name__ | Value1 |
-| __Due Date__        | Value2 |
-| __Points__          | Value3 |
-| __Grading Method__  | Value4 |
+| __Assignment Name__ | Homework 0            |
+| __Due Date__        | 2359, Tuesday, Apr 13 |
+| __Points__          | 0                     |
+| __Grading Method__  | None                  |
 
 # Instructions
 
