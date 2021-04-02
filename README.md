@@ -20,9 +20,14 @@ Grade:
 | __Points__          | 0                     |
 | __Grading Method__  | None                  |
 
+This assignment is to verify that you can complete assignments using GitHub and your preferred development technique (e.g., Colab or local development).
+
 # Instructions
 
-Complete steps n to m enumerated in the Jupyter notebook.
+1. Complete steps 1 to 3 enumerated in the Jupyter notebook.
+2. Commit your completed notebook to GitHub.
+3. Repeat steps 1 and 2 until your notebook passes all tests.
+4. Upload your completed notebook to Canvas.
 
 # Helpful Tips
 
