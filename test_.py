@@ -11,14 +11,7 @@ def tb():
 
     
 def test_step_1(tb):
-  try:
-    df = str(tb.ref('df')).encode('utf-8')
-  except:
-    assert False, 'STEP 1: df does not exist. Confirm that you have named your variable correctly.'
-
-  assert hashlib.md5(df).hexdigest() == '530e2e766ef6397f107ccddcf423c58e', \
-  'STEP 1: The dataframe df does not match the housing.csv data. Be sure you are importing the correct file from the correct site.'
-    
+  
   try:
     complete = None
     complete = tb.ref('STEP_1_COMPLETE').resolve()
@@ -27,6 +20,14 @@ def test_step_1(tb):
     complete = True
   finally:
     assert complete, 'STEP 1: not complete.'
+    
+  try:
+    df = str(tb.ref('df')).encode('utf-8')
+  except:
+    assert False, 'STEP 1: df does not exist. Confirm that you have named your variable correctly.'
+
+  assert hashlib.md5(df).hexdigest() == '530e2e766ef6397f107ccddcf423c58e', \
+  'STEP 1: The dataframe df does not match the housing.csv data. Be sure you are importing the correct file from the correct site.'
     
     
 def test_step_2(tb):
