@@ -16,8 +16,6 @@ def test_step_1(tb):
   except:
     assert False, 'STEP 1: df does not exist. Confirm that you have named your variable correctly.'
 
-  assert df, 'STEP 1: df not defined. Confirm that you have named your variable correctly.'
-
   assert hashlib.md5(df).hexdigest() == '530e2e766ef6397f107ccddcf423c58e', \
   'STEP 1: The dataframe df does not match the housing.csv data. Be sure you are importing the correct file from the correct site.'
     
