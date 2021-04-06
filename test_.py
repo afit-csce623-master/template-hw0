@@ -21,7 +21,7 @@ def test_step_1(tb):
       assert False, 'df does not exist. Confirm that you have named your variable correctly in Step 1'
       
     assert hashlib.md5(df.to_records().tobytes()).hexdigest() == '2f231a52e0554ed5b7f5c407ac7262c1', \
-      'The dataframe df does not match the housing.csv data. Be sure you are importing the correct file from the correct site.
+      'The dataframe df does not match the housing.csv data. Be sure you are importing the correct file from the correct site.'
     
   if complete:
     assert complete.resolve(), 'STEP 1 not complete.'
