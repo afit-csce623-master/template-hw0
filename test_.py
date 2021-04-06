@@ -29,7 +29,7 @@ def test_step_1(tb):
 def test_step_2(tb):
   try:
     complete = None
-    complete = tb.ref('STEP_1_COMPLETE')
+    complete = tb.ref('STEP_2_COMPLETE')
   except:
     pass
   
