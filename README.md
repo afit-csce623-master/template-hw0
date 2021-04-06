@@ -27,7 +27,7 @@ This assignment is to verify that you can complete assignments using GitHub and 
 1. Complete steps 1 to 3 enumerated in the Jupyter notebook.
 2. Commit your completed notebook to GitHub.
 3. Continue working on your notebook until your notebook passes all tests and you are satisfied with your work.
-4. Upload your completed notebook to Canvas.
+4. Upload your [completed notebook to Canvas](https://lms.au.af.edu/courses/23009/assignments/191311).
 
 # Helpful Tips
 
