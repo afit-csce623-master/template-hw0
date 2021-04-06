@@ -1,5 +1,4 @@
 import pytest
-import pandas
 import hashlib
 import json
 from testbook import testbook
