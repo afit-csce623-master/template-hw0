@@ -18,13 +18,13 @@ def test_step_1(tb):
     try: 
       df = tb.ref('df')
     except:
-      assert False, 'df does not exist. Confirm that you have named your variable correctly in Step 1'
+      assert False, 'STEP 1: df does not exist. Confirm that you have named your variable correctly in Step 1'
       
     assert hashlib.md5(df.to_records().tobytes()).hexdigest() == '2f231a52e0554ed5b7f5c407ac7262c1', \
-      'The dataframe df does not match the housing.csv data. Be sure you are importing the correct file from the correct site.'
+      'STEP 1: The dataframe df does not match the housing.csv data. Be sure you are importing the correct file from the correct site.'
     
   if complete:
-    assert complete.resolve(), 'STEP 1 not complete.'
+    assert complete.resolve(), 'STEP 1: not complete.'
     
 def test_step_2(tb):
   try:
@@ -34,7 +34,7 @@ def test_step_2(tb):
     pass
   
   if complete:
-    assert complete.resolve(), 'STEP 2 not complete.'
+    assert complete.resolve(), 'STEP 2: not complete.'
 
 def test_step_3(tb):
   try:
@@ -44,4 +44,4 @@ def test_step_3(tb):
     pass
   
   if complete:
-    assert complete.resolve(), 'STEP 3 not complete.'
+    assert complete.resolve(), 'STEP 3: not complete.'
